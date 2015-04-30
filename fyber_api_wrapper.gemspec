@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = FyberApiWrapper::VERSION
   spec.authors       = ["Dinesh Vasudevan"]
   spec.email         = ["dineshvasudevan2003@yahoo.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{ Fyber API Wrapper }
+  spec.description   = %q{ This serves as a Wrapper to http://developer.fyber.com/content/ios/offer-wall/offer-api/ }
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,11 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "webmock"
+
+  spec.add_dependency "httparty"
+  spec.add_dependency "json"
 end
