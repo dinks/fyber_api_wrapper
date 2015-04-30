@@ -1,6 +1,6 @@
 # FyberApiWrapper
 
-TODO: Write a gem description
+This serves as a Wrapper to `http://developer.fyber.com/content/ios/offer-wall/offer-api/`
 
 ## Installation
 
@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
 
 ## Contributing
 
