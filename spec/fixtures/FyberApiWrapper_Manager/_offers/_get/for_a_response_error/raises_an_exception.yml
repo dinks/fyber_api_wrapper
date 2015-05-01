@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.sponsorpay.com/feed/v1/offers.json?appid=157&device_id=2b6f0cc904d137be2e1730235f5664094b83&hashkey=c276c73a1950330c00781a0907a95bb8cef2c587&ip=109.235.143.113&locale=de&offer_types=112&page=2&pub0=campaign2&timestamp=1430442701
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 500 Internal Server Error
+      X-Runtime:
+      - '0.000611'
+      Date:
+      - Fri, 01 May 2015 01:11:41 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.53
+      Server:
+      - nginx + Phusion Passenger 4.0.53
+    body:
+      encoding: UTF-8
+      string: '{"code":"ERROR_INTERNAL_SERVER_ERROR","message":"An unknown error happened on the Fyber server."}'
+    http_version:
+  recorded_at: Fri, 01 May 2015 01:11:41 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,6 @@
+---
+:appid: 157
+:format: :json
+:offer_types:
+  - 112
+:api_key: 'Some API KEY'

@@ -1,0 +1,154 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.sponsorpay.com/feed/v1/offers.json?appid=157&device_id=2b6f0cc904d137be2e1730235f5664094b83&hashkey=37219896436fe735f4772a838fb5a483d6c8f6f2&ip=109.235.143.113&locale=de&offer_types=112&page=2&pub0=campaign2&timestamp=1430444942&uid=player1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      P3p:
+      - CP="NON DSP COR CURa IVAa IVDa CONa OUR NOR STA"
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      X-Sponsorpay-Response-Signature:
+      - 59c9af6591eecf9a9b25aa8ac3e04d17e0f3de7e
+      X-Sponsorpay-Response-Code:
+      - OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Runtime:
+      - '0.351996'
+      Date:
+      - Fri, 01 May 2015 01:49:02 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.53
+      Server:
+      - nginx + Phusion Passenger 4.0.53
+    body:
+      encoding: UTF-8
+      string: '{"code":"OK","message":"Ok","count":30,"pages":5,"information":{"app_name":"Demo
+        iframe for publisher - do not touch","appid":157,"virtual_currency":"Coins","country":"DE","language":"DE","support_url":"http://api.sponsorpay.com/support?appid=157&feed=on&mobile=on&uid=player1"},"offers":[{"title":"Gutscheine
+        im Wert von je \u20ac300","offer_id":495465,"teaser":"Registriere dich mit
+        korrekten Daten ","required_actions":"Registriere dich mit korrekten Daten
+        ","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/b3a7654a2fff9285/mobile/DE/157/offers/495465","offer_types":[{"offer_type_id":104,"readable":"Registrierung"},{"offer_type_id":108,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":85739,"time_to_payout":{"amount":2400,"readable":"40
+        Minuten"},"thumbnail":{"lowres":"http://cdn4.sponsorpay.com/assets/6095/grocery_square_60.PNG","hires":"http://cdn4.sponsorpay.com/assets/6095/grocery_square_175.PNG"},"store_id":""},{"title":"Takatap","offer_id":503820,"teaser":"Herunterladen
+        und STARTEN","required_actions":"Herunterladen und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/bce4bc26994480dd/mobile/DE/157/offers/503820","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":4817,"time_to_payout":{"amount":300,"readable":"5
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/app_icons/37599/small_mobile_icon.png","hires":"http://cdn2.sponsorpay.com/app_icons/37599/big_mobile_icon.png"},"store_id":"com.takatap.rewards"},{"title":"Lotto
+        365","offer_id":500874,"teaser":"Submit valid information. ","required_actions":"Submit
+        valid information. ","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/483f6759e28a48de/mobile/DE/157/offers/500874","offer_types":[{"offer_type_id":105,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":48168,"time_to_payout":{"amount":2400,"readable":"40
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/assets/174/survey_icon_square_60.png","hires":"http://cdn3.sponsorpay.com/assets/174/survey_icon_square_175.png"},"store_id":""},{"title":"Prospekte,
+        Angebote & Shopping","offer_id":504843,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/1fc306ef2be14db2/mobile/DE/157/offers/504843","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":7817,"time_to_payout":{"amount":300,"readable":"5
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/app_icons/21062/small_mobile_icon.png","hires":"http://cdn3.sponsorpay.com/app_icons/21062/big_mobile_icon.png"},"store_id":"de.marktjagd.android"},{"title":"Mornin
+        Glory","offer_id":504180,"teaser":"Bestelle jetzt alles, was du f\u00fcr deine
+        Nassrasur brauchst","required_actions":"Bestelle jetzt alles, was du f\u00fcr
+        deine Nassrasur brauchst","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/6db82dc88ac69d73/mobile/DE/157/offers/504180/preview","offer_types":[{"offer_type_id":103,"readable":"Einkaufen"},{"offer_type_id":112,"readable":"Gratis"}],"payout":107896,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/assets/50001/morning_square_60.PNG","hires":"http://cdn2.sponsorpay.com/assets/50001/morning_square_175.PNG"},"store_id":""},{"title":"mobile-pocket
+        loyalty cards","offer_id":505383,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/2af7cc03ef9c4291/mobile/DE/157/offers/505383","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":14450,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/app_icons/2942/small_mobile_icon.png","hires":"http://cdn2.sponsorpay.com/app_icons/2942/big_mobile_icon.png"},"store_id":"at.bluesource.mobilepocket"},{"title":"Gewinnen
+        Sie 2 Einkaufsgutscheine","offer_id":495426,"teaser":"Registriere dich mit
+        korrekten Daten ","required_actions":"Registriere dich mit korrekten Daten
+        ","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/5d85906901947218/mobile/DE/157/offers/495426","offer_types":[{"offer_type_id":104,"readable":"Registrierung"},{"offer_type_id":108,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":130534,"time_to_payout":{"amount":900,"readable":"15
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/assets/175/win_icon_square_60.png","hires":"http://cdn3.sponsorpay.com/assets/175/win_icon_square_175.png"},"store_id":""},{"title":"Pay
+        Safe Card","offer_id":505623,"teaser":"Schlie\u00dfe die Registrierung ab
+        und best\u00e4tige Deine Email-Adresse.","required_actions":"Schlie\u00dfe
+        die Registrierung ab und best\u00e4tige Deine Email-Adresse.","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/a3d04dbe2e3cfeba/mobile/DE/157/offers/505623","offer_types":[{"offer_type_id":105,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":32513,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/assets/9198/paysafecard_square_60.png","hires":"http://cdn2.sponsorpay.com/assets/9198/paysafecard_square_175.png"},"store_id":""},{"title":"bleibgesund
+        in Bayern \u2013 Das Gesundh","offer_id":501192,"teaser":"Herunterladen und
+        STARTEN","required_actions":"Herunterladen und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/e100bdb69ebf28bd/mobile/DE/157/offers/501192","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":33717,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn1.sponsorpay.com/app_icons/30185/small_mobile_icon.png","hires":"http://cdn1.sponsorpay.com/app_icons/30185/big_mobile_icon.png"},"store_id":"922998858"},{"title":"dailyme
+        TV, Serien & Fernsehen","offer_id":505080,"teaser":"User starts first video","required_actions":"User
+        starts first video","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/3a65fcdb9a62bf94/mobile/DE/157/offers/505080/preview","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":20334,"time_to_payout":{"amount":300,"readable":"5
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/app_icons/12121/small_mobile_icon.png","hires":"http://cdn2.sponsorpay.com/app_icons/12121/big_mobile_icon.png"},"store_id":"tv.dailyme.android"},{"title":"Paysafe
+        frankenPIN","offer_id":505335,"teaser":"Bitte registrieren Sie sich und bestaetigen
+        Sie Ihre Email Addresse.","required_actions":"Bitte registrieren Sie sich
+        und bestaetigen Sie Ihre Email Addresse.","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/738baa1a4d05d41b/mobile/DE/157/offers/505335","offer_types":[{"offer_type_id":105,"readable":"Registrierung"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":26974,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/assets/9198/paysafecard_square_60.png","hires":"http://cdn2.sponsorpay.com/assets/9198/paysafecard_square_175.png"},"store_id":""},{"title":"GEWINNE
+        JETZT ein iPhone 6","offer_id":503565,"teaser":"Registriere dich mit korrekten
+        Daten ","required_actions":"Registriere dich mit korrekten Daten ","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/8547a3ac00582ce2/mobile/DE/157/offers/503565","offer_types":[{"offer_type_id":104,"readable":"Registrierung"},{"offer_type_id":108,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":113194,"time_to_payout":{"amount":600,"readable":"10
+        Minuten"},"thumbnail":{"lowres":"http://cdn4.sponsorpay.com/assets/49794/iphones6_square_60.png","hires":"http://cdn4.sponsorpay.com/assets/49794/iphones6_square_175.png"},"store_id":""},{"title":"Marktjagd
+        Dein Einkaufshelfer \u2013 Pro","offer_id":504864,"teaser":"Herunterladen
+        und STARTEN","required_actions":"Herunterladen und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/d0704256c0289504/mobile/DE/157/offers/504864","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":18242,"time_to_payout":{"amount":300,"readable":"5
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/app_icons/10874/small_mobile_icon.png","hires":"http://cdn3.sponsorpay.com/app_icons/10874/big_mobile_icon.png"},"store_id":"615348868"},{"title":"LOVOO
+        Chat, Flirt, Real People","offer_id":497619,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/4340b9ffc5d4361f/mobile/DE/157/offers/497619","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":111,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":12042,"time_to_payout":{"amount":300,"readable":"5
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/app_icons/873/small_mobile_icon.png","hires":"http://cdn3.sponsorpay.com/app_icons/873/big_mobile_icon.png"},"store_id":"net.lovoo.android"},{"title":"Cubic
+        Cash","offer_id":351176,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/9b77cc1d02ac3225/mobile/DE/157/offers/351176","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":6971,"time_to_payout":{"amount":6900,"readable":"2
+        Stunden"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/app_icons/26228/small_mobile_icon.png","hires":"http://cdn3.sponsorpay.com/app_icons/26228/big_mobile_icon.png"},"store_id":"com.cubic.cash"},{"title":"Nimm
+        teil und gewinne!","offer_id":387469,"teaser":"Nimm mit deinen korrekten Daten
+        am Gewinnspiel teil.","required_actions":"Nimm mit deinen korrekten Daten
+        am Gewinnspiel teil.","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/caebdc35cbe984db/mobile/DE/157/offers/387469/preview","offer_types":[{"offer_type_id":105,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":82518,"time_to_payout":{"amount":0,"readable":"einer
+        Minute"},"thumbnail":{"lowres":"http://cdn1.sponsorpay.com/assets/2690/appleprdodukty_square_60.PNG","hires":"http://cdn1.sponsorpay.com/assets/2690/appleprdodukty_square_175.PNG"},"store_id":""},{"title":"Opel
+        Adam Gewinnspiel","offer_id":468268,"teaser":"Melde dich mit validen Daten
+        an und best\u00e4tige deine Email Adresse. ","required_actions":"Melde dich
+        mit validen Daten an und best\u00e4tige deine Email Adresse. ","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/ef8c9eeda1217291/mobile/DE/157/offers/468268/preview","offer_types":[{"offer_type_id":104,"readable":"Registrierung"},{"offer_type_id":108,"readable":"Registrierung"},{"offer_type_id":112,"readable":"Gratis"}],"payout":43213,"time_to_payout":{"amount":600,"readable":"10
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/assets/175/win_icon_square_60.png","hires":"http://cdn3.sponsorpay.com/assets/175/win_icon_square_175.png"},"store_id":""},{"title":"Taichi
+        Panda","offer_id":446993,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/34bb915b60c5db00/mobile/DE/157/offers/446993","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":18593,"time_to_payout":{"amount":1200,"readable":"20
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/app_icons/33300/small_mobile_icon.png","hires":"http://cdn2.sponsorpay.com/app_icons/33300/big_mobile_icon.png"},"store_id":"944892716"},{"title":"lieferando
+        - Pizza, Burger, Sushi, ","offer_id":428353,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/2176439c3f3af284/mobile/DE/157/offers/428353","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":19267,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn4.sponsorpay.com/app_icons/18538/small_mobile_icon.png","hires":"http://cdn4.sponsorpay.com/app_icons/18538/big_mobile_icon.png"},"store_id":"419724490"},{"title":"EZ
+        PZ RPG","offer_id":489611,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/e11726b8a326a077/mobile/DE/157/offers/489611","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":9296,"time_to_payout":{"amount":900,"readable":"15
+        Minuten"},"thumbnail":{"lowres":"http://cdn4.sponsorpay.com/app_icons/32871/small_mobile_icon.png","hires":"http://cdn4.sponsorpay.com/app_icons/32871/big_mobile_icon.png"},"store_id":"com.nuclear.qmwow.platform.r2game"},{"title":"DH
+        Texas Poker","offer_id":55148,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/ac98e41e0db4a606/mobile/DE/157/offers/55148","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":9296,"time_to_payout":{"amount":600,"readable":"10
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/app_icons/972/small_mobile_icon.png","hires":"http://cdn2.sponsorpay.com/app_icons/972/big_mobile_icon.png"},"store_id":"com.droidhen.game.poker"},{"title":"Lords
+        & Knights - Medieval Strategy","offer_id":484936,"teaser":"Download the app
+        and complete the tutorial. ","required_actions":"Download the app and complete
+        the tutorial. ","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/e4a1de7a93a46e73/mobile/DE/157/offers/484936/preview","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":37185,"time_to_payout":{"amount":3600,"readable":"einer
+        Stunde"},"thumbnail":{"lowres":"http://cdn4.sponsorpay.com/app_icons/5183/small_mobile_icon.png","hires":"http://cdn4.sponsorpay.com/app_icons/5183/big_mobile_icon.png"},"store_id":"421864154"},{"title":"Das
+        \u00d6rtliche telephone book and dir","offer_id":373635,"teaser":"Herunterladen
+        und STARTEN","required_actions":"Herunterladen und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/0e4d198a1272402c/mobile/DE/157/offers/373635","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":16749,"time_to_payout":{"amount":90600,"readable":"einem
+        Tag"},"thumbnail":{"lowres":"http://cdn1.sponsorpay.com/app_icons/7292/small_mobile_icon.png","hires":"http://cdn1.sponsorpay.com/app_icons/7292/big_mobile_icon.png"},"store_id":"330158440"},{"title":"eBay","offer_id":484159,"teaser":"Herunterladen
+        und STARTEN","required_actions":"Herunterladen und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/2be0eea5a7025e57/mobile/DE/157/offers/484159","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":24084,"time_to_payout":{"amount":900,"readable":"15
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/app_icons/7484/small_mobile_icon.png","hires":"http://cdn3.sponsorpay.com/app_icons/7484/big_mobile_icon.png"},"store_id":"282614216"},{"title":"Cradle
+        of Empires","offer_id":349997,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/bddb4bd8ba6aad55/mobile/DE/157/offers/349997","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":21675,"time_to_payout":{"amount":1800,"readable":"30
+        Minuten"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/app_icons/9587/small_mobile_icon.png","hires":"http://cdn3.sponsorpay.com/app_icons/9587/big_mobile_icon.png"},"store_id":"738480930"},{"title":"Wasabee
+        Free SMS","offer_id":444435,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/5a408ff09fc81b80/mobile/DE/157/offers/444435","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":112,"readable":"Gratis"}],"payout":5402,"time_to_payout":{"amount":900,"readable":"15
+        Minuten"},"thumbnail":{"lowres":"http://cdn1.sponsorpay.com/app_icons/33312/small_mobile_icon.png","hires":"http://cdn1.sponsorpay.com/app_icons/33312/big_mobile_icon.png"},"store_id":"mobile.app.wasabee"},{"title":"Dragon
+        Fire Empire","offer_id":298385,"teaser":"Install, open, and register.","required_actions":"Install,
+        open, and register.","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/e007869469b556a7/mobile/DE/157/offers/298385","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":482,"time_to_payout":{"amount":0,"readable":"einer
+        Minute"},"thumbnail":{"lowres":"http://cdn3.sponsorpay.com/assets/45029/Screen_Shot_2014-07-23_at_4.42.19_PM_square_60.png","hires":"http://cdn3.sponsorpay.com/assets/45029/Screen_Shot_2014-07-23_at_4.42.19_PM_square_175.png"},"store_id":""},{"title":"Jewel
+        Mania\u2122","offer_id":186215,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/29d31c692d90f4c1/mobile/DE/157/offers/186215","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":6695,"time_to_payout":{"amount":10800,"readable":"3
+        Stunden"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/app_icons/9731/small_mobile_icon.png","hires":"http://cdn2.sponsorpay.com/app_icons/9731/big_mobile_icon.png"},"store_id":"com.teamlava.jewel"},{"title":"Basketball
+        Hoo - 4 Minuten spielen!","offer_id":384387,"teaser":"Klicke auf \"Spielen\"
+        und spiele f\u00fcr 4 Minuten!","required_actions":"Klicke auf \"Spielen\"
+        und spiele f\u00fcr 4 Minuten!","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/f05b6b341ab562c4/mobile/DE/157/offers/384387","offer_types":[{"offer_type_id":105,"readable":"Registrierung"},{"offer_type_id":106,"readable":"Spiele"},{"offer_type_id":109,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":12696,"time_to_payout":{"amount":120,"readable":"2
+        Minuten"},"thumbnail":{"lowres":"http://cdn2.sponsorpay.com/assets/46869/baskethoops175_square_60.jpg","hires":"http://cdn2.sponsorpay.com/assets/46869/baskethoops175_square_175.jpg"},"store_id":""},{"title":"Lotto24.de
+        - Der Lotto-Kiosk im Int","offer_id":450704,"teaser":"Herunterladen und STARTEN","required_actions":"Herunterladen
+        und STARTEN","link":"http://api.sponsorpay.com/4d8d349542745aec579ba948b59c5bf6/7b4a6fd3c0132ecc/mobile/DE/157/offers/450704","offer_types":[{"offer_type_id":101,"readable":"Download"},{"offer_type_id":107,"readable":"Spiele"},{"offer_type_id":112,"readable":"Gratis"}],"payout":26066,"time_to_payout":{"amount":0,"readable":"einer
+        Minute"},"thumbnail":{"lowres":"http://cdn4.sponsorpay.com/app_icons/19332/small_mobile_icon.png","hires":"http://cdn4.sponsorpay.com/app_icons/19332/big_mobile_icon.png"},"store_id":"784389203"}]}'
+    http_version: 
+  recorded_at: Fri, 01 May 2015 01:49:02 GMT
+recorded_with: VCR 2.9.3

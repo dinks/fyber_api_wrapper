@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.sponsorpay.com/feed/v1/offers.json?appid=157&device_id=2b6f0cc904d137be2e1730235f5664094b83&hashkey=cdb509770bd9aaf86d84723191a39b206800f08c&ip=109.235.143.113&locale=de&offer_types=112&page=2&pub0=campaign2&timestamp=1430442560&uid=player1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 401 Unauthorized
+      X-Runtime:
+      - '0.009889'
+      Date:
+      - Fri, 01 May 2015 01:09:20 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.53
+      Server:
+      - nginx + Phusion Passenger 4.0.53
+    body:
+      encoding: UTF-8
+      string: '{"code":"ERROR_INVALID_HASHKEY","message":"An invalid hashkey for this
+        appid was given as a parameter in the request."}'
+    http_version: 
+  recorded_at: Fri, 01 May 2015 01:09:20 GMT
+recorded_with: VCR 2.9.3
