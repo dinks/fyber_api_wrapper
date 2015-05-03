@@ -25,7 +25,6 @@ module FyberApiWrapper
       @parsed_response.fetch("count")
     end
 
-
     def information
       @information ||= FyberApiWrapper::Information.new(@parsed_response.fetch("information"))
     end
