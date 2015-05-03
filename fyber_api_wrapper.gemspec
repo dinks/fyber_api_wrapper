@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dineshvasudevan2003@yahoo.com"]
   spec.summary       = %q{ Fyber API Wrapper }
   spec.description   = %q{ This serves as a Wrapper to http://developer.fyber.com/content/ios/offer-wall/offer-api/ }
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/dinks/fyber_api_wrapper"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
