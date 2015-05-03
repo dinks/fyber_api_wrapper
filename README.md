@@ -47,6 +47,8 @@ If exceptions are raised, then it could be one of
 - `FyberApiWrapper::BadRequestError`   - 400 Httpstatus
 - `FyberApiWrapper::ResponseError`     - all the others
 
+Specs were written using `Rspec`. The requests were recorded using `vcr` and stored so that it can be replayed. 
+
 
 ## Contributing
 
